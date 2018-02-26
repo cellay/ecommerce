@@ -11,14 +11,9 @@ export default {
 }
 
 const URI = 'https://api.gilt.com/v1/sales/women/active.json?';
-const API = 'apikey=b089b1162895b96b190a895b6c849054704453656c2be416cb63f0cc58ac475f';
+const APIkey = 'apikey=b089b1162895b96b190a895b6c849054704453656c2be416cb63f0cc58ac475f';
 
-// let getInfo = (data) => {
-//       console.log(data);
-
-//     };
-
-  fetch(URI + API)
+  fetch(URI + APIkey)
     .then(function(response) {
       return response.json();
     })
