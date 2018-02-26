@@ -68,6 +68,7 @@ footer {
 }
 
 .btng {
+  margin-bottom: 20px;
   width: 300px;
 }
 </style>
