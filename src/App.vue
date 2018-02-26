@@ -66,14 +66,8 @@ footer {
 .bg-light {
     background-color: #FAD7A0!important;
 }
-.btn-outline-success {
-    color: black;
-    background-color: transparent;
-    background-image: none;
-    border-color: black;
-}
-.btn-outline-success:hover{
-    background-color: white;
-    color: black
+
+.btng {
+  width: 300px;
 }
 </style>

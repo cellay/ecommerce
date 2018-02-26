@@ -34,8 +34,8 @@
     </div>
     <div class="container">
       <div class="row d-flex justify-content-around align-items-center btnbox">
-        <router-link to="/women"><button class="btn btn-outline-danger">Women</button></router-link>
-        <router-link to="/men"><button class="btn btn-outline-danger">Men</button></router-link>
+        <router-link to="/women"><button class="btn btn-outline-danger btng">Women</button></router-link>
+        <router-link to="/men"><button class="btn btn-outline-danger btng">Men</button></router-link>
       </div>
     </div>
     
