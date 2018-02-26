@@ -9,8 +9,8 @@
 export default {
   name: 'women'
 }
-
-const URI = 'https://api.gilt.com/v1/sales/women/active.json?';
+let genre = 'women';
+const URI = 'https://api.gilt.com/v1/sales/'+ genre + '/active.json?';
 const APIkey = 'apikey=b089b1162895b96b190a895b6c849054704453656c2be416cb63f0cc58ac475f';
 
   fetch(URI + APIkey)
